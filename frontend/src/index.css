@@ -1,3 +1,10 @@
+body {
+  background-color: black;
+}
+nav {
+  background: rgb(233, 203, 33);
+}
+
 main {
   min-height: 80vh;
 }
@@ -5,11 +12,13 @@ main {
 h1 {
   font-size: 1.8rem;
   padding: 1rem 0;
+  color: white;
 }
 
 h2 {
   font-size: 1.4rem;
   padding: 0.5rem 0;
+  color: white;
 }
 
 h3 {
@@ -18,4 +27,20 @@ h3 {
 
 .rating span {
   margin: 0.1rem;
+}
+
+footer,
+a,
+th,
+td,
+label {
+  color: white;
+}
+
+a:hover {
+  color: rgb(182, 1, 1);
+}
+
+strong {
+  color: black;
 }
